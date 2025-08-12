@@ -1,0 +1,40 @@
+{
+    "students": {
+        "01": {
+            "name": "Asad",
+            "age": 35,
+            "address": "Dhaka",
+            "student_id": "01",
+            "grades": {},
+            "courses": []
+        },
+        "S001": {
+            "name": "Sami",
+            "age": 25,
+            "address": "Dhaka",
+            "student_id": "S001",
+            "grades": {
+                "Physics": "A"
+            },
+            "courses": [
+                "Physics"
+            ]
+        }
+    },
+    "courses": {
+        "01-Developer": {
+            "course_name": "Python Developer",
+            "course_code": "01-Developer",
+            "instructor": "Zaayed",
+            "students": []
+        },
+        "PHY101": {
+            "course_name": "Physics",
+            "course_code": "PHY101",
+            "instructor": "Dr. ABC",
+            "students": [
+                "Sami"
+            ]
+        }
+    }
+}
